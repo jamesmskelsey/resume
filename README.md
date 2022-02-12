@@ -1,2 +1,3 @@
-# resume
-Cloud resume challenge
+# Resume
+
+Cloud resume challenge.
