@@ -1,6 +1,6 @@
-steps:
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['gcloud', 'source', 'repos', 'clone', 'default']
+#steps:
+#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#  args: ['gcloud', 'source', 'repos', 'clone', 'default']
 
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['rsync', '-x', '\.git.*', '.', 'gs://jamesmskelsey-resume']
