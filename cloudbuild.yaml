@@ -8,7 +8,7 @@ steps:
         "invalidate-cdn-cache",
         "resume-lb",
         "--path",
-        '"/*"',
+        '/*',
       ]
 
   - name: "gcr.io/cloud-builders/gsutil"
