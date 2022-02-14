@@ -1,3 +1,15 @@
 .content {
   max-width: 80ch;
 }
+
+.box {
+box-shadow:
+  1.3px 2.7px 10px rgba(0, 0, 0, 0.028),
+  4.5px 9.2px 33.7px rgba(0, 0, 0, 0.042),
+  20px 41px 151px rgba(0, 0, 0, 0.07)
+;
+  border-radius: 10px;
+
+  margin: 3rem 0;
+  padding: 1.5rem 0;
+}
